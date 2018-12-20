@@ -1,0 +1,25 @@
+{
+    "name": "jyou/enquiry",
+    "description": "Simple Enquiry Form Package",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Jyou",
+            "email": "iamjyou9599@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Jyou\\Enquiry\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+	            "Jyou\\Enquiry\\EnquiryServiceProvider"
+	        ]
+        }
+    }
+}
