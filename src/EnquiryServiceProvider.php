@@ -21,6 +21,7 @@ class EnquiryServiceProvider extends ServiceProvider
 	    );
     	$this->publishes([
     		__DIR__.'/config/enquiry.php' => config_path('enquiry.php'),
+    		__DIR__.'/views' => base_path('resources/views/vendor'),
     	]);
     }
 
